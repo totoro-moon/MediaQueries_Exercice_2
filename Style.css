@@ -1,0 +1,23 @@
+body{
+padding: 2%;
+}
+.Container{
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid #008FE8;
+  align-items: center;
+  padding: 2%;
+}
+.RectancleBleu{
+  height: 10%;
+  width: 20vh;
+  background-color: #8CCBF2;
+  border: 1px solid #008FE8;
+  text-align: center;
+  padding: 2%;
+}
+@media screen and (max-width: 768px){
+  .Container{
+    flex-wrap: wrap;
+  }
+}
